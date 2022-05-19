@@ -20,11 +20,6 @@
         <result column="grade" property="grade" />
         <result column="credits" property="credits" />
     </resultMap>
-    
-
-
-
-
 
     <!-- 添加成绩 -->
     <insert id="insertGrade" parameterType="Grade">

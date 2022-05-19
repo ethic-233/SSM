@@ -18,12 +18,6 @@ import java.util.List;
  * @Package: net.fuzui.StudentInfo.service.impl
  * @ClassName: SCTestApp
  * @Description: 选课相关功能测试类
- * @Author: 王泽
- * @CreateDate: 2019-04-10 21:20
- * @UpdateUser: 王泽
- * @UpdateDate: 2019-04-10 21:20
- * @UpdateRemark: 新建
- * @Version: 1.0
  */
 @RunWith(SpringJUnit4ClassRunner.class) // 使用junit4进行测试
 @ContextConfiguration(locations = {"classpath:config/spring/applicationContext.xml"}) // 加载配置文件

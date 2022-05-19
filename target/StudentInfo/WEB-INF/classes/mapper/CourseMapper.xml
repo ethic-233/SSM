@@ -4,7 +4,6 @@
 
 <mapper namespace="net.fuzui.StudentInfo.mapper.CourseMapper">
 
-
     <!-- 为了返回List，类型而定义的resultMap -->
     <resultMap type="Course" id="resultListCourse">
         <result column="cid" property="cid" />
